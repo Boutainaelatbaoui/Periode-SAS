@@ -4,4 +4,4 @@
 
 #### **[Challenge langage C Part 1](https://github.com/Boutainaelatbaoui/Periode-SAS/tree/master/variable)**
 #### **[Challenge langage C Part 2 (condition)](https://github.com/Boutainaelatbaoui/Periode-SAS/tree/master/condition):**
-#### **[Challenge langage C Part 3 (Boucle)](https://github.com/Boutainaelatbaoui/Periode-SAS/tree/master/boucle): Permutation Sous Conditions**
+#### **[Challenge langage C Part 3 (Boucle)](https://github.com/Boutainaelatbaoui/Periode-SAS/tree/master/boucle)**
