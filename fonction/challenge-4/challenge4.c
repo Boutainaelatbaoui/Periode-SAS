@@ -4,24 +4,43 @@
 /*Créez une fonction divededby(int n,int a) qui retoune la division des deux valeurs.
 Utilisez la fonction dividedby() pour contrôler si le nombre est premier en retourne true, sinon on retourne false.*/
 
-int divededby(int, int);
+typedef Bool;
+#define true 1
+#define false 0
+
+void divededby(int, int);
 
 int main()
 {
-    int n, a;
-    printf("Veuillez entrer la valeur de n: ");
-    scanf("%d", &n);
-    printf("Veuillez entrer la valeur de a: ");
+    int a, b;
+    printf("Veuillez entrer la valeur de A: ");
     scanf("%d", &a);
+    printf("Veuillez entrer la valeur de B: ");
+    scanf("%d", &b);
 
-    printf("n / a = %d\n", divededby(n, a));
+    divededby(a, b);
 
     return 0;
 }
 
-int divededby(int n, int a)
+ void divededby(int a, int b)
 {
-    return n/a;
+    int estpremier;
+
+    for(int i=2; i<a; i++)
+    {
+        if(a%i == 0)
+        {
+            estpremier = false;
+            break;
+        }
+    }
+    estpremier = true;
+
+    if(estpremier && b!=0)
+         printf("A / B = %d\n", a/b);
+    else
+        printf("A doit etre un nombre premier et B n'est pas egal a 0\n");
 }
 
 
